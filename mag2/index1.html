@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+			================================================== -->
+	
+	<meta charset="utf-8">
+	<title>Enlighted shine</title>
+	<meta name="description" content="">
+	<meta name="author" content="NEWTON" >
+
+	<!-- Mobile Specific Metas
+			================================================== -->
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS (Stylesheets)-->
+	
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/modernizr.custom.04022.js"></script>
+
+
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/css/fancybox.css">
+	<link rel="stylesheet" href="assets/css/flexslider.css">
+	  <link rel="stylesheet" href="stylesheets/All-Stylesheets.css" />
+	<!-- Google Web Fonts
+	================================================== -->
+	
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin">
+	
+	<!-- Favicons
+	================================================== -->
+<script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>	
+	<link rel="shortcut icon" href="assets/img/favicon.ico">
+	<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+
+</head>
+
+<body>
+
+	<div class="header-background-image"></div>
+
+	<header id="header-global" role="banner">
+	
+		<div class="container">
+		
+			<div class="row">
+			
+				<div class="header-logo eight columns">
+					
+			
+				</div><!-- end .header-logo -->
+				
+			
+			</div><!-- end .row -->
+			
+		</div><!-- end .container -->
+			
+		<nav id="header-navigation" class="sixteen columns" role="navigation">
+			<ul id="navigation">
+				<li><a href="#header-global" title="Home">Home</a></li>
+				<li><a href="#introduction" title="GNU Linux">gnu linux</a></li>
+				<li><a href="#latest-work" title="Language">language</a></li>
+				<li><a href="#services" title="OS War">os war</a></li>
+				<li><a href="#meet-the-team" title="Resouces">resources</a></li>
+
+		<li><a href="http://localhost:8080/" target="_blank" title="NOde Chat">Node Chat</a></li>		
+		
+			</ul>
+			
+			<select name="dropdpown" size="1" onChange="scrollTo(this.value)">
+				<option value="" selected="selected">Navigation</option>
+				<option value="#header-global">Home</option>
+				<option value="#introduction">About Us</option>
+				<option value="#latest-work">Our Work</option> 
+				<option value="#services">Our Services</option> 
+				<option value="#meet-the-team">Meet the team</option>
+								<option value="#meet-the-team">fresh</option>
+				<option value="#contact">Contact Us</option>
+			</select>
+		</nav><!-- end #header-navigation -->
+			
+		<div class="container">
+			
+			<div class="row">
+			
+				<h1 id="uber-statement">Avoid the Gates of Hell Use Linux</h1>
+				
+			</div>
+	
+		</div><!-- end .container -->
+	
+	</header><!-- end #header-global -->
+
+		<section id="introduction">
+	
+		<div class="container">
+		
+			<div class="icon-holder intro">
+				<i class="icon-trophy"></i>
+			</div>
+		
+			<h1>An open-source version of the UNIX operating system.
+</h1>
+<br />
+<!-- .entry-content -->  
+															<div class="entry-content">																					
+																										<div class="media-wrap">
+			<br />
+			
+			<div id="vimeo-example-one">
+							<div class="container">
+								<div class="video-frame">
+								<!--
+	<video width="900" height="481" controls onPlay="" src="assets/videos/131028003.mp4">
+    </video>		-->	
+    
+    <iframe src="http://player.vimeo.com/video/54443918?byline=0&amp;portrait=0" width="600" height="481" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    				
+													</div><!-- end .video-frame -->
+							</div>
+						</div>
+			<br />																										</div>
+																					</div>
+																																				<br />
+		<p>
+	The History of Linux began in 1991 with the commencement of a personal project by a Finnish student, Linus Torvalds, to create a new free operating system kernel.
+When Linus Torvalds first created Linux in 1991, he needed some basic tools to make it useful. For this, he turned to the GNU project that, under the leadership of Richard Stallman, 
+had produced free versions of essential computing utilities such as a command shell (bash) and C compiler (gcc). 
+Linux users have immense freedom of choice in their software.Linux is also less likely to crash, better able to run more than one program at the same time, and more secure than many operating systems. With these advantages, Linux is the 
+fastest growing operating system in the server market.
+		</p>
+
+
+		<h2id="demo">Click the button to get your position:</h2><br />
+<button onclick="getLocation()">Try It</button> <br />
+<div id="mapholder"></div><br />
+<script>
+var x=document.getElementById("demo");
+function getLocation()
+  {
+  if (navigator.geolocation)
+    {
+    navigator.geolocation.getCurrentPosition(showPosition,showError);
+    }
+  else{x.innerHTML="Geolocation is not supported by this browser.";}
+  }
+
+function showPosition(position)
+  {
+  var latlon=position.coords.latitude+","+position.coords.longitude;
+
+  var img_url="http://maps.googleapis.com/maps/api/staticmap?center="
+  +latlon+"&zoom=14&size=400x300&sensor=false";
+  document.getElementById("mapholder").innerHTML="<img src='"+img_url+"'>";
+  }
+
+function showError(error)
+  {
+  switch(error.code) 
+    {
+    case error.PERMISSION_DENIED:
+      x.innerHTML="User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML="Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML="The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML="An unknown error occurred."
+      break;
+    }
+  }
+</script>
+		
+		
+		</div>
+
+	</section><!-- end #introduction -->
+
+	<div id="section-divider-1">
+	
+		<div class="bg1"></div>
+		
+		<div class="container">
+		
+			<div class="text-container">
+				
+			<section id="latest-quotes">
+					<ul id="quotes">
+				
+						<li>
+										<blockquote>                  Father of GNU Linux</blockquote>
+								
+						</li>
+		<!--			    
+									
+			-->
+					</ul><!-- end #quotes -->
+				</section><!-- end #latest-quotes -->
+			
+			</div><!-- end .text-container -->
+		
+		</div>
+	
+	</div><!-- end #section-divider-1 -->
+
+	<section id="latest-work">
+			
+		<div class="container">
+	<br />			
+			<div class="icon-holder work">
+				<i class="icon-pencil"></i>
+			</div>
+				
+ <h1>A pure functional language </h1>
+		  <img src="assets/img/h7.png"/>
+			<p><br/>				
+				
+			<p>Haskell is an advanced purely-functional programming language. An open-source product of more than twenty years of cutting-edge research, it allows rapid development of robust, concise, correct software. With strong support for integration with other languages, built-in concurrency and parallelism, debuggers, profilers, rich libraries and an active community, Haskell makes it easier to produce flexible, maintainable, high-quality software.<br/><br/>
+           
+            
+          
+          </p><div class="button">"Haskell can automatically determine the type of a piece of data by looking at how it is created and used."</div>
+              
+             <br/><br/><br/>
+             <h1>Bible to read</h1>
+          <img src="assets/img/hb.png"/>
+          <br/>
+                      
+          <p><br/>
+          <p>&nbsp;</p>
+            
+            
+          </p>
+          
+
+		 
+							</div>
+						</div>
+		
+
+	</section><!-- end #latest-work -->
+
+	<div id="section-divider-2">
+		
+		<div class="bg2"></div>
+	
+		</div>
+	
+	</div><!-- end #section-divider-2 -->
+
+	<section id="services">
+
+		<div class="container">
+	
+			<div class="icon-holder services">
+				<i class="icon-cog"></i>
+			</div>
+	
+			<h1>battle for THE killer operating system </h1>
+		
+			 <div class="container" >
+					
+			<div class="sp-slideshow">
+			
+				<input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
+				<label for="button-1" class="button-label-1"></label>
+				
+				<input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
+				<label for="button-2" class="button-label-2"></label>
+				
+				<input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
+				<label for="button-3" class="button-label-3"></label>
+				
+				<input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
+				<label for="button-4" class="button-label-4"></label>
+				
+				<input id="button-5" type="radio" name="radio-set" class="sp-selector-5" />
+				<label for="button-5" class="button-label-5"></label>
+				
+				<label for="button-1" class="sp-arrow sp-a1"></label>
+				<label for="button-2" class="sp-arrow sp-a2"></label>
+				<label for="button-3" class="sp-arrow sp-a3"></label>
+				<label for="button-4" class="sp-arrow sp-a4"></label>
+				<label for="button-5" class="sp-arrow sp-a5"></label>
+				
+				<div class="sp-content">
+					<div class="sp-parallax-bg"></div>
+					<ul class="sp-slider clearfix">
+						<li><img src="images/image5.png" alt="image01" /></li>
+						<li><img src="images/image1.png" alt="image02" /></li>
+						<li><img src="images/image3.png" alt="image03" /></li>
+						<li><img src="images/image1.png" alt="image04" /></li>
+						<li><img src="images/image5.png" alt="image05" /></li>
+					</ul>
+				</div><!-- sp-content -->
+				
+			</div><!-- sp-slideshow -->
+				</div>
+			
+	<!--
+<div class="flexslider">
+			  
+
+			  <ul class="slides">
+		    	  <li>
+			      		<a class="fancybox" data-fancybox-group="gallery#1" href="assets/img/slides/slide_image_one.jpg" title="The Photo Shoot">
+			      			<img src="assets/img/slides/slide_image_one.jpg" alt="" />
+			      		</a>
+		    	</li>
+			    	<li>
+			      		<a class="fancybox" data-fancybox-group="gallery#1" href="assets/img/slides/slide_image_two.jpg" title="Banksy and Dog">
+			      			<img src="assets/img/slides/slide_image_two.jpg" alt="" />
+			      		</a>
+			    	</li>
+			    	<li>
+			      		<a class="fancybox" data-fancybox-group="gallery#1" href="assets/img/slides/slide_image_three.jpg" title="Walking Down Madison">
+			      			<img src="assets/img/slides/slide_image_three.jpg" alt="" />
+			      		</a>
+			    	</li>
+			    
+		  	  </ul>
+		  </div><!-- end .flexslider -->	
+	<br />
+	<p>Linux users have immense freedom of choice in their software.Linux is also less likely to crash, better able to run more than one program at the same time, and more secure than many operating systems. With these advantages, Linux is the 
+fastest growing operating system in the server market.</p>
+<br />
+	<!--<img src="assets/img/win.jpg" alt="f.o">	
+	
+	<br />
+	<img src="assets/img/win8.jpg" alt="Fuck ur browser">
+		<br /><br />
+		-->
+			<h1>Windows 8 vs Ubuntu</h1>
+<img src="assets/img/win.jpg" alt="f.o">	
+	
+	<br />
+
+		<br />
+
+<!--<img src="assets/img/win1.jpg" alt="Fuck ur browser">-->
+			<div id="all-services">
+						
+				<div class="service one-third column">
+												
+					<i class="icon-desktop"></i>
+		
+					<h2>Unity Vs modern ui</h2>
+					
+					<p>Both Microsoft and Canonical have received considerable flak for the default user interfaces. In Microsoft’s case, of course, it’s the Modern UI, formerly known as Metro; in Canonical’s case, it’s Unity. Both are designed with touchscreens in mind, and borrow heavily from the mobile world. </p>
+				
+				</div><!-- end .service -->
+				
+				<div class="service one-third column">
+																	
+					<i class="icon-cloud-download"></i>
+		
+					<h2>Cloud integration</h2>
+					
+					<p>Starting with the launch of Ubuntu One in 2009, the cloud has played a key role in Ubuntu Linux for some time, enabling users to store files online (5 GB Free, There after $3/20G Data ) and sync them among computers and mobile devices, as well as to stream audio and music from the cloud to mobile devices.</p>
+		
+				</div><!-- end .service -->
+				
+				<div class="service one-third column">
+																	
+					<i class="icon-dashboard"></i>
+		
+					<h2>Hardware support</h2>
+					
+					<p>Ubuntu’s requirements, are much more modest: Canonical recommends 512MB of RAM, plus 5GB on the hard drive. You’ll also find versions such as Lubuntu and Xubuntu for lower-spec machines. In short, if hardware is a constraining factor for you, Ubuntu is most likely the better choice.</p>
+				
+				</div><!-- end .service -->
+				
+				<div class="service one-third column">
+															
+					<i class="icon-github-alt"></i>
+		
+					<h2>Security</h2>
+					
+					<p>Although Windows RT apps run within a sandboxed environment for greater security, Windows 8 Pro desktop legacy apps have no equivalent. Instead, third-party software developers are left to their own devices to add security measures to their apps.Ubuntu Linux provide their own firewalls.</p>
+				
+				</div><!-- end .service -->
+				
+				<div class="service one-third column">
+																	
+					<i class="icon-heart"></i>
+		
+					<h2> Admin tools</h2>
+					
+					<p>For administrative controls, Windows provides Active Directory, using dedicated Active Directory servers. Canonical supports Active Directory as well, and Ubuntu Linux clients can join to an Active Directory Domain using third-party software such as Likewise Open or Centrify. </p>
+		
+				</div><!-- end .service -->
+				
+				<div class="service one-third column">
+																	
+					<i class="icon-leaf"></i>
+	
+					<h2>Price</h2>
+					
+					<p>Ubuntu Linux is free, while Windows 8 Pro will reportedly cost $199 after the current introductory upgrade offer of $39 to $69 expires. Ubuntu Linux 12.10 could provide a compelling alternative. If nothing else, it’s almost certainly worth your while to try it online or take it for a free test drive. </p>
+				
+				</div><!-- end .service -->
+			
+			</div><!-- end #all-services -->
+			
+		</div>
+
+	</section><!-- end #services -->
+
+
+	<div id="section-divider-3">
+	
+		<div class="bg3"></div>
+	
+		<div class="container">
+		
+			<div class="text-container">
+		
+				<i class="icon-twitter"></i>
+		
+		
+			</div><!-- end .text-container -->
+
+		</div>
+	
+	</div><!-- end #section-divider-3 -->
+
+	<section id="meet-the-team">
+	
+		<div class="container">
+	
+			<div class="icon-holder team">
+				<i class="icon-user"></i>
+			</div>
+		
+		
+		
+		
+
+<!-- Portfolio Page Starts
+	            ================================================== -->
+            <div id="portfolio" class="light-texture-2">
+            <div class="page-header">
+                  <div class="container">
+                        <div class="sixteen columns">
+                              <h1 class="one"><span>Linux: the choice of a GNU generation</span></h1>
+                        </div>
+                  </div>
+            </div>
+            <div class="container">
+            
+                  <!-- Portfolio Navigation Starts -->
+                  <div class="sixteen columns center">
+                        <div id="options">
+                              <ul id="filters" class="option-set" data-option-key="filter">
+                                    <li><a href="#selected" data-option-value="*" class="selected">All</a></li>
+                                    <li><a href="#web" data-option-value=".photos1">Photos 1</a></li>
+                                    <li><a href="#photos" data-option-value=".photos2">Photos 2 </a></li>
+                                    <li><a href="#video" data-option-value=".video">Videos</a></li>
+                              </ul>
+                        </div>
+                  </div>
+                  <!-- Portfolio Navigation Ends -->
+                  
+                  <div class="clear"></div>
+                  <div id="container-thumbs" class="gallery">
+                  
+                        <!-- Project Starts -->
+                        <div class="one-third column element view view-third photos1">
+                              <img src="images/portfolio/thumbs/1.jpg" class="scale-with-grid image-shadow" alt="" />
+                              <div class="title">OPENSUSE</div>
+                              <div class="description">Open Build Service</div>
+                              <div class="mask">
+                                    <h3>Photos 1</h3>
+                                    <a href="images/portfolio/big/1.jpg" rel="prettyPhoto[mixed]" title="" class="info"><img src="images/portfolio/photos.png" alt="" /></a> 
+                              </div>
+                        </div>
+                        <!-- Project Ends --> 
+                        
+                        <!-- Project Starts -->
+                        <div class="one-third column element view view-third photos2">
+                              <img src="images/portfolio/thumbs/2.jpg" class="scale-with-grid image-shadow" alt="" />
+                              <div class="title">UBUNTU</div>
+                              <div class="description">Efficient hardware use</div>
+                              <div class="mask">
+                                    <h3>Photos 2</h3>
+                                    <a href="images/portfolio/big/2.jpg" rel="prettyPhoto[mixed]" title="" class="info"><img src="images/portfolio/photos.png" alt="" /></a> 
+                              </div>
+                        </div>
+                        <!-- Project Ends --> 
+                        
+                        <!-- Project Starts -->
+                        <div class="one-third column element view view-third video">
+                              <img src="images/portfolio/thumbs/v-1.jpg" class="scale-with-grid image-shadow" alt="" />
+                             <div class="title">CHOOSE UBUNTU</div>
+                              <div class="description">Why To Choose Ubuntu?</div>
+                              <div class="mask">
+                                    <h3>Video[vimeo]</h3>
+                                    <a href="http://vimeo.com/8245346" rel="prettyPhoto[mixed]" title="" class="info"><img src="images/portfolio/video.png" alt="" /></a> 
+                              </div>
+                        </div>
+                        <!-- Project Ends --> 
+                        
+                        <!-- Project Starts -->
+                        <div class="one-third column element view view-third video">
+                              <img src="images/portfolio/thumbs/v-2.jpg" class="scale-with-grid image-shadow" alt="" />
+                               <div class="title">UBUNTU SERVERS</div>
+                              <div class="description">Morbi Tristique Senectus</div>
+                              <div class="mask">
+                                    <h3>Video[youtube]</h3>
+                                    <a href="https://www.youtube.com/watch?v=GgR6dyzkKHI" rel="prettyPhoto[mixed]" title="" class="info"><img src="images/portfolio/video.png" alt="" /></a> 
+                              </div>
+                        </div>
+                        <!-- Project Ends --> 
+                        
+                        <!-- Project Starts -->
+                        <div class="one-third column element view view-third photos2">
+                              <img src="images/portfolio/thumbs/3.jpg" class="scale-with-grid image-shadow" alt="" />
+                             <div class="title">UBUNTU SERVERS</div>
+                              <div class="description">Now Runs On Servers</div>
+                              <div class="mask">
+                                    <h3>Photos 2</h3>
+                                    <a href="images/portfolio/big/3.jpg" rel="prettyPhoto[mixed]" title="" class="info"><img src="images/portfolio/photos.png" alt="" /></a> 
+                              </div>
+                        </div>
+                        <!-- Project Ends --> 
+                        
+                        <!-- Project Starts -->
+                        <div class="one-third column element view view-third photos1">
+                              <img src="images/portfolio/thumbs/10.jpg" class="scale-with-grid image-shadow" alt="" />
+                             <div class="title">LINUX DISTRO</div>
+                              <div class="description">Many Choices</div>
+                              <div class="mask">
+                                    <h3>Photos 1</h3>
+                                    <a href="images/portfolio/big/10.jpg" rel="prettyPhoto[mixed]" title="" class="info"><img src="images/portfolio/photos.png" alt="" /></a> 
+                              </div>
+                        </div>
+                        <!-- Project Ends --> 
+                        
+                        <!-- Project Starts -->
+                        <div class="one-third column element view view-third photos1">
+                              <img src="images/portfolio/thumbs/5.jpg" class="scale-with-grid image-shadow" alt="" />
+                              <div class="title">ARCH LINUX</div>
+                              <div class="description">Rolling Releases</div>
+                              <div class="mask">
+                                    <h3>Photos 1</h3>
+                                    <a href="images/portfolio/big/5.jpg" rel="prettyPhoto[mixed]" title="" class="info"><img src="images/portfolio/photos.png" alt="" /></a> 
+                              </div>
+                        </div>
+                        <!-- Project Ends --> 
+                        
+                        <!-- Project Starts -->
+                        <div class="one-third column element view view-third photos2">
+                              <img src="images/portfolio/thumbs/6.jpg" class="scale-with-grid image-shadow" alt="" />
+                               <div class="title">FEDORA</div>
+                              <div class="description"> Security-Enhanced Linux</div>
+                              <div class="mask">
+                                    <h3>Photos 2</h3>
+                                    <a href="images/portfolio/big/6.jpg" rel="prettyPhoto[mixed]" title="" class="info"><img src="images/portfolio/photos.png" alt="" /></a> 
+                              </div>
+                        </div>
+                        <!-- Project Ends --> 
+                        
+                        <!-- Project Starts -->
+                        <div class="one-third column element view view-third photos1">
+                              <img src="images/portfolio/thumbs/7.jpg" class="scale-with-grid image-shadow" alt="" />
+                            <div class="title">LINUX FORMATE</div>
+                              <div class="description">New Releas</div>
+                         
+                              <div class="mask">
+                                    <h3>Photos 1</h3>
+                                    <a href="images/portfolio/big/7.jpg" rel="prettyPhoto[mixed]" title="" class="info"><img src="images/portfolio/photos.png" alt="" /></a> 
+                              </div>
+                        </div>
+                        <!-- Project Ends --> 
+                        
+                        <!-- Project Starts -->
+                        <div class="one-third column element view view-third photos2">
+                              <img src="images/portfolio/thumbs/8.jpg" class="scale-with-grid image-shadow" alt="" />
+                              <div class="title">TAKE YOUR PICK</div>
+                              <div class="description">Choose The Best For You</div>
+                       
+                              <div class="mask">
+                                    <h3>Photos 2</h3>
+                                    <a href="images/portfolio/big/8.jpg" rel="prettyPhoto[mixed]" title="" class="info"><img src="images/portfolio/photos.png" alt="" /></a> 
+                              </div>
+                        </div>
+                        <!-- Project Ends --> 
+                        
+                        <!-- Project Starts -->
+                        <div class="one-third column element view view-third video">
+                              <img src="images/portfolio/thumbs/v-3.jpg" class="scale-with-grid image-shadow" alt="" />
+                              <div class="title">LINUX HISTORY</div>
+                              <div class="description">How Linux Built</div>
+                              <div class="mask">
+                                    <h3>Video[vimeo]</h3>
+                                    <a href="http://vimeo.com/41995383" rel="prettyPhoto[mixed]" title="" class="info"><img src="images/portfolio/video.png" alt="" /></a> 
+                              </div>
+                        </div>
+                        <!-- Project Ends --> 
+                        
+                        <!-- Project Starts -->
+                        <div class="one-third column element view view-third photos2">
+                              <img src="images/portfolio/thumbs/9.jpg" class="scale-with-grid image-shadow" alt="" />
+                              <div class="title">OPEN SOURCE TOOLS</div>
+                              <div class="description">Gnome</div>
+                              <div class="mask">
+                                    <h3>Photos 2</h3>
+                                    <a href="images/portfolio/big/9.jpg" rel="prettyPhoto[mixed]" title="" class="info"><img src="images/portfolio/photos.png" alt="" /></a> 
+                              </div>
+                        </div>
+                        <!-- Project Ends --> 
+                        
+                  </div>
+            </div>
+      </div>
+      <!-- Portfolio Page Ends
+            ================================================== --> 
+		
+		<!-----------------------------------------------	-->
+	<!--<img   src="assets/img/open.jpg" alt="" ><br />
+<!--<h2>The Philosophy of thoughts</h2>
+<img   src="assets/img/open.jpg" <div style="float: left"></div>alt="">
+<img src="assets/img/gnu.jpg" <div style="float: right"></div> alt="">
+
+<h2>Open source</h2>
+
+<p>Open Source is a term that applies to software for which the source code
+the inner workings of the program is freely available for anyone to download,
+ modify, and redistribute. Software covered under the GNU GPL </p>
+
+
+<h2>GNU Project</h2>
+
+<p>Free software means that the software's users have freedom.
+Specifically, free software means users have the four essential freedoms: (0) to run the program, (1) to study and change the program in source code form, (2) to redistribute exact copies, and (3) to distribute modified versions.</p>		
+
+	-->
+	
+	
+			<h1>Raspberry Pi</h1>
+			<br /><img src="assets/img/rasp.jpg" alt="">
+			<br /><p>"The Raspberry Pi is a credit-card sized computer board that plugs into a TV and a keyboard. It’s a miniature ARM-based PC which can be used for many of the things that a desktop PC does, like spreadsheets, word-processing and games. It also plays High-Definition video.
+			 The Raspberry Pi model B board is supplied as the board only, and comes without operating system, SD card, power supply, keyboard, case or cables." </p>		
+			
+			
+			</div><!-- end #team-members -->
+
+	
+			</div><!-- end .row -->
+			
+		</div><!-- end .container -->
+			
+	</section><!-- end #meet-the-team -->
+
+	<footer id="footer-global" role="contentinfo" class="clearfix">
+	
+
+		
+								<p id="copyright-details">&copy; Dark Horses</p>
+			  		
+
+		
+	</footer><!-- end #footer-global -->
+	
+<script type="text/javascript">
+function scrollTo(target) {
+				var targetPosition = $(target).offset().top;
+				$('html,body').animate({
+								scrollTop: targetPosition
+				}, 'slow');
+}
+</script>
+
+<!-- JS (Javascript Files)
+================================================== -->
+
+
+<!-- jQuery.js 
+                        ================================================== --> 
+                  <script src="js/jquery.js"></script> 
+                                           
+                  <!-- Portfolio 
+                        ================================================== --> 
+                  <script src="js/isotope/jquery.isotope.min.js"></script> 
+                  <script src="js/isotope/Isotope-Filtering.js"></script> 
+                  
+                  <!-- PrettyPhoto for Portfolio
+                        ================================================== -->
+                  <script src="js/prettyphoto/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script> 
+                  <script src="js/prettyphoto/custom.js" type="text/javascript" charset="utf-8"></script> 
+                  
+                   
+             
+                
+      
+      <!-- Included JS Files Ends
+            ================================================== -->
+
+<!-- ------------------------------ -->
+<script src="assets/js/modernizr-2.6.2.min.js"></script>
+
+<script src="../ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="assets/js/jquery.isotope.min.js"></script>
+<script src="assets/js/jquery.easing.min.js"></script>
+<script src="assets/js/jquery.quote.rotator.min.js"></script>
+<script src="assets/js/jquery.flexslider.min.js"></script>
+<script src="assets/js/jquery.fancybox.min.js"></script>
+<script src="assets/js/jquery.fitvids.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<script src="assets/js/jquery.sticky.js"></script>
+<script src="assets/js/jquery.latest.tweet.js"></script>
+<script src="assets/js/custom.js"></script>
+	
+</body>
+
+</html>

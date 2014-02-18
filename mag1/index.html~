@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  	================================================== -->
+	
+	<meta charset="utf-8">
+	<title>Elegant web</title>
+	<meta name="description" content="">
+	<meta name="author" content="NEWTON" >
+
+	<!-- Mobile Specific Metas
+  	================================================== -->
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS (Stylesheets)
+  	================================================== -->
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/css/fancybox.css">
+	<link rel="stylesheet" href="assets/css/flexslider.css">
+	
+	<!-- Google Web Fonts
+	================================================== -->
+	<script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Cabin">
+	
+	<!-- Favicons
+	================================================== -->
+	
+	<link rel="shortcut icon" href="assets/img/favicon.ico">
+	<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+
+</head>
+
+
+<body>
+
+<div class="header-background-image"></div>
+
+	<header id="header-global" role="banner">
+	
+		<div class="container">
+		
+			<div class="row">
+			
+				<div class="header-logo eight columns">
+					
+			<!--		<div id="logo"><a href="index-2.html" title="Nash"><img src="assets/img/nash_header_logo.png" width="173" height="90" alt="Header Logo" /></a></div>
+				  	_-- -->
+				</div><!-- end .header-logo -->
+				
+			
+			
+			</div><!-- end .row -->
+			
+		</div><!-- end .container -->
+		
+			
+		<nav id="header-navigation" class="sixteen columns" role="navigation">
+			<ul id="navigation">
+			<li><a href="#header-global" title="HOME">Home</a></li>
+				<li><a href="#introduction" title="HTML5">html5</a></li>
+				<li><a href="#latest-work" title="RECENT">recent</a></li>
+				<li><a href="#services" title="LANGUAGE WAR">language war</a></li>
+				<li><a href="#meet-the-team" title="GITHUB">Github</a></li>
+	
+								<li><a href="assets/book/book.html" title="NO SQL"  target="_blank" >NO SQL MANUAL</a></li>
+			</ul>
+			
+			<select name="dropdpown" size="1" onChange="scrollTo(this.value)">
+				<option value="" selected="selected">Navigation</option>
+				<option value="#header-global">Home</option>
+				<option value="#introduction">html5</option>
+				<option value="#latest-work">recent</option> 
+				<option value="#services">language war</option> 
+				<option value="#meet-the-team">Github</option>
+				<option value="#contact">No sql</option>
+			</select>
+		</nav><!-- end #header-navigation -->
+			
+		<div class="container">
+			
+			<div class="row">
+			
+				<h1 id="uber-statement">html5 ROCK A ROLLA</h1>
+				
+			</div>
+	
+		</div><!-- end .container -->
+	
+	</header><!-- end #header-global -->
+
+ <br />
+	<section id="introduction">
+	
+		<div class="container">
+		
+			<div class="icon-holder intro">
+				<i class="icon-trophy"></i>
+			</div>
+		
+			<h1>HTML5: The future of the Web is finally here</h1>
+		
+<iframe width="900" height="515" src="http://www.youtube.com/embed/mzPxo7Y6JyA?rel=0" frameborder="0" allowfullscreen></iframe>	
+<!--<video width="900" height="515" controls onPlay=""  poster="assets/img/vdo.png" src="assets/video/1.mp4" >
+ 
+</video> -->		
+		<br />
+		<p>HTML5, the long-in-the-works update to the language that powers the Web, is "feature complete," according to an announcement made Monday by the standards-setting Worldwide Web Consortium (W3C). There's still some testing to be done, and it hasn't yet become an official Web standard -- that will come in 2014. But there won't be any new features added to HTML5, which means Web designers and app makers now have a "stable target" for implementing it, W3C said.</p>
+
+<!--
+
+HTML5 is the newest hyper text coding in web design that will take the consumer web experience to a whole new level. HTML5 is the newest upgrade to the HTML4 coding for web design, that will eventually allow technology users to view the same web page across all devices without any sizing or usage issues. HTML5 will make coding for web designers more logical and easier by enabling videos to be built directly into the coding, instead of having to use outside plug-ins such as JavaScript, Flash players, or Quicktime conversions (Vasile, 2013).
+</p>
+
+-->
+<!--	
+			<div class="flexslider">
+				<ul class="slides">
+			    	<li>
+			      		<a class="fancybox" data-fancybox-group="gallery#1" href="assets/img/slides/slide_image_one.jpg" title="The Photo Shoot">
+			      			<img src="assets/img/slides/slide_image_one.jpg" alt="" />
+			      		</a>
+			    	</li>
+			    	<li>
+			      		<a class="fancybox" data-fancybox-group="gallery#1" href="assets/img/slides/slide_image_two.jpg" title="Banksy and Dog">
+			      			<img src="assets/img/slides/slide_image_two.jpg" alt="" />
+			      		</a>
+			    	</li>
+			    	<li>
+			      		<a class="fancybox" data-fancybox-group="gallery#1" href="assets/img/slides/slide_image_three.jpg" title="Walking Down Madison">
+			      			<img src="assets/img/slides/slide_image_three.jpg" alt="" />
+			      		</a>
+			    	</li>
+			  	</ul>
+			</div> --> <!-- end .flexslider -->
+		
+		</div>
+	
+	</section><!-- end #introduction -->
+
+	<div id="section-divider-1">
+	
+		<div class="bg1"></div>
+		
+		<div class="container">
+		
+			<div class="text-container">
+				
+				<section id="latest-quotes">
+					<ul id="quotes">
+				
+					</ul><!-- end #quotes -->
+				</section><!-- end #latest-quotes -->
+			
+			</div><!-- end .text-container -->
+		
+		</div>
+	
+	</div><!-- end #section-divider-1 -->
+
+	<section id="latest-work">
+			<div class="icon-holder work">
+				<i class="icon-pencil"></i>
+			</div>	
+		<div class="container">
+	
+		
+<h1>Information-Rich Programming with F# 3.0
+            </h1>
+            
+			<img src="assets/img/F.jpg" alt="" width="858" height="552">
+            <br/>
+            
+            
+		  <p><br/>F# is both open-source under the OSI-approved Apache 2.0 license and a first-class language in Visual Studio. It is cross-platform and can be used on Mac OS X, Linux, Android, HTML5 and other platforms.They walked carefully through the china country. The little animals and all the people scampered out of their way, fearing the strangers would break them, and after an hour or so the travellers reached the other side of the country and came to another wall.</p>
+			<p>&nbsp;</p>
+			<!--		
+		
+		
+<h1>Node.js is here </h1>		
+<p>Node.js, often called simply "Node" in conversation, is a development platform built on top of Google's V8 JavaScript virtual machine. While JavaScript engines (including V8) are traditionally run in Web browsers to form the client side of a client/server application, the Node.js libraries are focused on building server-side applications in JavaScript.
+	Node.js is intended to run on a dedicated HTTP server and to employ a single thread with one process at a time. Node.js applications are events-based and run asynchronously.</p>
+	<!--	<img src="assets/img/node.jpg" alt="">
+			-->
+			<h1>redis for speed lovers</h1>	
+				<img src="assets/img/redis.jpg" alt="">
+				<br />
+				</br>
+<p>Redis is an open source, BSD licensed, advanced key-value store. It is often referred to as a data structure server since keys can contain strings, hashes, lists, sets and sorted sets.
+You can run atomic operations on these types,like appending to a string; incrementing the value in a hash; pushing to a list; computing set intersection, union and difference; or getting the member with highest ranking in a sorted set.
+In order to achieve its outstanding performance, Redis works with an in-memory dataset.</p>						
+
+
+				<!--
+			
+		
+			<div id="portfolio-filter">
+					
+				<ul id="filter">
+					<li><a href="#" class="current" data-filter="*" title="Show all items">Show all</a></li>
+					<li><a href="#" data-filter=".photography" title="Show all items under Photography">photography</a></li>
+					<li><a href="#" data-filter=".illustration" title="Show all items under Illustration">illustration</a></li>
+					<li><a href="#" data-filter=".motion-graphics" title="Show all items under Motion Graphics">motion graphics</a></li>
+					<li><a href="#" data-filter=".web-design" title="Show all items under Web Design">web design</a></li>
+				</ul>
+				
+			</div><!-- end #portfolio-filter -
+	
+			<div id="portfolio-items">
+			
+				<div class="one-third column motion-graphics">
+				
+					<div class="project-item">
+						
+						<div class="project-image">
+							<img src="assets/img/portfolio_thumb_one.png" alt="" />
+							<div class="overlay">
+								<div class="details">
+									<a class="item-one fancybox" href="#vimeo-example-one"><i class="icon-search"></i></a>
+								</div>
+							</div>
+						</div><!-- end .project-image -
+						
+						<div class="project-details">
+							<h2>The Performance</h2>
+							<p>The Mongolia plied regularly between Brindisi and Bombay via the Suez Canal, and was one of the fastest steamers belonging to the company, always making more than ten knots an hour.</p>
+						</div><!-- end .project-details -->
+						
+						<!-- NOTE: Hidden video for Vimeo example --
+						<div id="vimeo-example-one" style="display:none;">
+							<div class="container">
+								<div class="video-frame">
+									<iframe src="http://player.vimeo.com/video/56974716?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281"></iframe>
+								</div><!-- end .video-frame --
+							</div>
+						</div><!-- end #vimeo-example-one -->
+						<!-- NOTE: Hidden video for Vimeo example -->
+					
+					</div><!-- end .project-item --
+					
+				</div><!-- end .one-third --
+				
+				<div class="one-third column photography">
+				
+					<div class="project-item">
+
+						<div class="project-image">
+							<a class="item-two fancybox" data-fancybox-group="gallery#2" href="assets/img/slides/slide_image_one.jpg" title="The Photo Shoot">
+								<img src="assets/img/portfolio_thumb_two.png" alt="" />
+							</a>
+							<div class="overlay">
+								<div class="details">
+									<a class="modal-link" onclick="$('.item-two.fancybox').eq(0).trigger('click'); return false;"><i class="icon-search icon-3x"></i></a>
+								</div>
+							</div>
+						</div><!-- end .project-image --
+						
+						<div class="project-details">
+							<h2>Orange Moped</h2>
+							<p>The Mongolia plied regularly between Brindisi and Bombay via the Suez Canal, and was one of the fastest steamers belonging to the company, always making more than ten knots an hour.</p>
+						</div><!-- end .project-details -->
+						
+						<!-- NOTE: Hidden images for Gallery --
+						<div style="display: none;">
+							<a class="item-two fancybox" data-fancybox-group="gallery#2" href="assets/img/slides/slide_image_two.jpg" title="Banksy and Dog">
+								
+							</a>
+							<a class="item-two fancybox" data-fancybox-group="gallery#2" href="assets/img/slides/slide_image_three.jpg" title="Walking down Madison">
+								
+							</a>
+						</div>
+						<!-- NOTE: Hidden images for Gallery -->
+					
+					</div><!-- end .project-item --
+					
+				</div><!-- end .one-third -
+				
+				<div class="one-third column photography">
+				
+					<div class="project-item">
+						
+						<div class="project-image">
+							<img src="assets/img/portfolio_thumb_three.png" alt="" />
+							<div class="overlay">
+								<div class="details">
+									<a class="item-three fancybox" href="#soundcloud-example"><i class="icon-search"></i></a>
+								</div>
+							</div>
+						</div><!-- end .project-image -
+						
+						<div class="project-details">
+							<h2>Walking with Banksy</h2>
+							<p>The Mongolia plied regularly between Brindisi and Bombay via the Suez Canal, and was one of the fastest steamers belonging to the company, always making more than ten knots an hour.</p>
+						</div><!-- end .project-details -->
+						
+						<!-- NOTE: Hidden audio for Soundcloud example --
+						<div id="soundcloud-example" style="display:none;">
+							<div class="container">
+								<iframe width="100%" height="166" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F69720404&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
+							</div>
+						</div><!-- end #soundcloud-example -->
+						<!-- NOTE: Hidden audio for Soundcloud example -->
+					
+					</div><!-- end .project-item --
+					
+				</div><!-- end .one-third --
+				
+				<div class="one-third column web-design">
+				
+					<div class="project-item">
+					
+						<div class="project-image">
+							<a class="item-four fancybox" href="assets/img/slides/slide_image_two.jpg" title="Banksy and Dog">
+								<img src="assets/img/portfolio_thumb_four.png" alt="" />
+							</a>
+							<div class="overlay">
+								<div class="details">
+									<a class="modal-link" onclick="$('.item-four.fancybox').eq(0).trigger('click'); return false;"><i class="icon-search icon-3x"></i></a>
+								</div>
+							</div>
+						</div><!-- end .project-image --
+						
+						<div class="project-details">
+							<h2>On the market</h2>
+							<p>The Mongolia plied regularly between Brindisi and Bombay via the Suez Canal, and was one of the fastest steamers belonging to the company, always making more than ten knots an hour.</p>
+						</div><!-- end .project-details -->
+					
+					</div><!-- end .project-item --
+					
+				</div><!-- end .one-third --
+				
+				<div class="one-third column illustration">
+				
+					<div class="project-item">
+						
+						<div class="project-image">
+							<a class="item-five fancybox" href="assets/img/slides/slide_image_one.jpg" title="The Photo Shoot">
+								<img src="assets/img/portfolio_thumb_five.png" alt="" />
+							</a>
+							<div class="overlay">
+								<div class="details">
+									<a class="modal-link" onclick="$('.item-five.fancybox').eq(0).trigger('click'); return false;"><i class="icon-search icon-3x"></i></a>
+								</div>
+							</div>
+						</div><!-- end .project-image --
+						
+						<div class="project-details">
+							<h2>Shooting Hoops</h2>
+							<p>The Mongolia plied regularly between Brindisi and Bombay via the Suez Canal, and was one of the fastest steamers belonging to the company, always making more than ten knots an hour.</p>
+						</div><!-- end .project-details -->
+					
+					</div><!-- end .project-item --
+					
+				</div><!-- end .one-third --
+				
+				<div class="one-third column motion-graphics">
+				
+					<div class="project-item">
+						
+						<div class="project-image">
+							<img src="assets/img/portfolio_thumb_six.png" alt="" />
+							<div class="overlay">
+								<div class="details">
+									<a class="item-six fancybox" href="#vimeo-example-two"><i class="icon-search"></i></a>
+								</div>
+							</div>
+						</div><!-- end .project-image --
+						
+						<div class="project-details">
+							<h2>A daytime chat</h2>
+							<p>The Mongolia plied regularly between Brindisi and Bombay via the Suez Canal, and was one of the fastest steamers belonging to the company, always making more than ten knots an hour.</p>
+						</div><!-- end .project-details -->
+						
+						<!-- NOTE: Hidden video for Vimeo example --
+						<div id="vimeo-example-two" style="display:none;">
+							<div class="container">
+								<div class="video-frame">
+									<iframe src="http://player.vimeo.com/video/48502577?byline=0&amp;portrait=0&amp;color=ebebeb" width="500" height="281"></iframe>
+								</div><!-- end .video-frame -->
+							</div>
+						</div><!-- end #vimeo-example-two --
+						<!-- NOTE: Hidden video for Vimeo example -->
+					
+					</div><!-- end .project-item -->
+					
+				</div><!-- end .one-third -->
+
+			</div><!-- end #portfolio-items -->
+			
+		</div><!-- end .container -->
+
+	</section><!-- end #latest-work -->
+
+	<div id="section-divider-2">
+		
+		<div class="bg2"></div>
+	
+		<div class="container">
+	
+			<div class="text-container">
+		
+				<div class="logos sixteen columns">
+			
+					
+				
+					<ul id="client-logos">
+				<!--		<li><img src="assets/img/guuthemes_logo.png" width="130" height="45" alt="" /></li>
+						<li><img src="assets/img/firstbase_logo.png" width="135" height="50" alt="" /></li>
+						<li><img src="assets/img/daywear_logo.png" width="130" height="45" alt="" /></li>
+						<li><img src="assets/img/gallery_logo.png" width="130" height="45" alt="" /></li>
+						<li><img src="assets/img/bubhub_logo.png" width="130" height="50" alt="" /></li>	
+				-->	</ul>
+			
+				</div><!-- end .logos -->
+		
+			</div><!-- end .text-container -->
+	
+		</div>
+	
+	</div><!-- end #section-divider-2 -->
+
+	<section id="services">
+<div class="container">
+	
+			<div class="icon-holder services">
+				<i class="icon-cog"></i>
+			</div>
+	
+			<!--
+            <h1>An Introduction to Functional Programming for .NET Developerss</h1>
+            
+            <iframe width="900" height="500" src="http://www.youtube.com/embed/ALr212cTpf4?rel=0" frameborder="0" allowfullscreen></iframe>
+		-->
+		<h1>language war : F# vs Rest</h1>
+<img src="assets/img/p.jpg" alt="">
+
+		  <div id="all-services">
+						
+				<div class="service one-third column">
+												
+					<i class="icon-desktop"></i>
+		
+					<h2>Simple Code</h2>
+					
+					<p>F# is expressive and concise, which allows developers to implement their algorithms more directly. This means less code to read and maintain.</p>
+					<p>&nbsp;</p>
+				</div>
+				<!-- end .service -->
+				
+				<div class="service one-third column">
+																	
+					<i class="icon-cloud-download"></i>
+		
+					<h2>Fewer Bugs</h2>
+					
+					<p> F#'s strong type system reduces software bugs. Units of Measure further increase these benefits by preventing code from accidentally combining such elements as inches and centimeters, dollars and euros, or any custom units. </p>
+				</div>
+				<!-- end .service -->
+				
+				<div class="service one-third column">
+																	
+					<i class="icon-dashboard"></i>
+		
+					<h2>Interoperability</h2>
+					
+					<p>F# interoperates seamlessly with c#,F# can be used with HTML5, JavaScript and other web standards. F# type providers can be used to integrate data sources and thousands of stat libraries from packages such as R. </p>
+				
+				</div><!-- end .service -->
+				
+				<div class="service one-third column">
+															
+					<i class="icon-github-alt"></i>
+		
+					<h2>Efficient Execution</h2>
+					
+					<p>F# features modern, high-performance just-in-time (JIT) compilation to native code. F# code runs unchanged on both 32-bit and 64-bit systems by using the instructions available on the target architecture. </p>
+				
+				</div><!-- end .service -->
+				
+				<div class="service one-third column">
+																	
+					<i class="icon-heart"></i>
+		
+					<h2>Rapid Prototyping </h2>
+					
+					<p><em>"</em>Using F# Interactive, code can be executed immediately without first compiling, which enables fluid problem exploration. Developers can use F# Interactive to iteratively refine algorithms to production quality.<br>
+					</p>
+		
+				</div><!-- end .service -->
+				
+				<div class="service one-third column">
+																	
+					<i class="icon-leaf"></i>
+		
+					<h2>Reduced Complexity </h2>
+					
+					<p>F# makes it easier to write functional programs, which eliminates complex time and state dependencies. This helps prevent bugs, makes unit testing more straightforward, simplifies refactoring, and promotes code reuse.</p>
+				
+				</div><!-- end .service -->
+			
+			</div><!-- end #all-services -->
+			
+		</div>
+
+	
+
+	</section><!-- end #services -->
+
+	<div id="section-divider-3">
+	
+		<div class="bg3"></div>
+	
+		<div class="container">
+		
+			<div class="text-container">
+		
+				<i class="icon-twitter"></i>
+		
+		
+			</div><!-- end .text-container -->
+
+		</div>
+	
+	</div><!-- end #section-divider-3 -->
+
+
+
+	<section id="meet-the-team">
+				
+		<div class="container">
+	
+			<div class="icon-holder team">
+				<i class="icon-user"></i>
+			</div>
+		
+<h1>It's better to work together than to work alone</h1>
+			
+			<p><img src="assets/img/github.jpg" width="915" height="250" alt="github"></p>
+			<p>Since software is changing the world, it shouldn't be surprising that it's developed by people from all corners of the globe.Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+			It's better to work together than to work alone. By developing software on GitHub, you're making it easy for 2.8MM people to help you out.</p>
+			<p><img src="statistics.jpg" width="835" height="498" alt="statistics"></p>
+			<p>Since software is changing the world, it shouldn't be surprising that it's developed by people from all corners of the globe. While the United States is the most active country on GitHub.com, it accounts for only 28% of our traffic.The top 10 countries visiting GitHub.com are: United States, Germany, United Kingdom, China, Japan, France, India, Canada, Russia and Brazil. The top 10 cities are: London, San Francisco, New York, Paris, Moscow, Beijing, Berlin, Bangalore, Sydney and Toronto.</p>
+					
+
+		<!--	<h1> when i feel sad i hack</h1>
+<iframe src="http://player.vimeo.com/video/60191839?byline=0&amp;portrait=0&amp;color=ff881f" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	-->
+	
+	</section><!-- end #meet-the-team -->
+
+	<footer id="footer-global" role="contentinfo" class="clearfix">
+	
+	
+	 		<p id="copyright-details">&copy; 2013 satans web </p>
+			 
+	
+		
+	</footer><!-- end #footer-global -->
+	
+<script type="text/javascript">
+function scrollTo(target) {
+    var targetPosition = $(target).offset().top;
+    $('html,body').animate({
+        scrollTop: targetPosition
+    }, 'slow');
+}
+</script>
+
+<!-- JS (Javascript Files)
+================================================== -->
+
+<script src="assets/js/modernizr-2.6.2.min.js"></script>
+
+<script src="../ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="assets/js/jquery.isotope.min.js"></script>
+<script src="assets/js/jquery.easing.min.js"></script>
+<script src="assets/js/jquery.quote.rotator.min.js"></script>
+<script src="assets/js/jquery.flexslider.min.js"></script>
+<script src="assets/js/jquery.fancybox.min.js"></script>
+<script src="assets/js/jquery.fitvids.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<script src="assets/js/jquery.sticky.js"></script>
+
+<script src="assets/js/custom.js"></script>
+	
+</body>
+
+</html>

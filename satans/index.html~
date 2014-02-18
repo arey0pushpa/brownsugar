@@ -1,0 +1,253 @@
+
+<!DOCTYPE HTML>
+ 
+<head>
+
+<!-- Define Charset -->
+<meta charset="utf-8"/>
+
+<!-- Responsive Metatag -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<!-- Page Title -->
+<title> Satans universe</title>
+
+<!-- Description and Keyword -->
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/knobKnob.css" />
+ <!--       <link href='http://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css' />-->
+		<script type="text/javascript" src="js/modernizr.custom.69142.js"></script> 
+
+<!-- Stylesheet and Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
+<link rel="stylesheet" href="css/lightbox.css"/>
+<link rel="stylesheet" href="css/styles.css"/>
+<link rel="stylesheet" href="demo.css" />
+<link href="css/skins/cyan.css" rel="stylesheet" type="text/css" />
+<link href="css/skins/wide.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/modernizr.custom.63321.js"></script>
+
+
+<!-- Google Fonts 
+<link href="http://fonts.googleapis.com/css?family=Oxygen:700,300,400" rel="stylesheet" type="text/css"/>
+<link href="http://fonts.googleapis.com/css?family=Petit+Formal+Script" rel="stylesheet" type="text/css"/>
+
+<!-- Javascript Library -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/backstretch.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript" src="js/cycle.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/main2.js"></script>
+ 
+<!-- Favicon -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+ 
+<script type="text/javascript" > 
+ 
+$(document).ready(function() {
+$(".styles-open").click(function(){
+$(".styles, .styles-open").animate({ "left":"-220px" }, 1000); $(".styles-closed").animate({ "left":"0" }, 1000);
+return false;
+});
+$(".styles-closed a").click(function(){
+$(".styles-closed").animate({ "left":"-220px" },1000);
+$(".styles").animate({ "left":"0" }, 1000);
+$(".styles-open").animate({ "left":"220" }, 1000);
+return false;
+});
+}); 
+</script>
+</head>
+
+<body>
+
+<!-- Header -->
+<div id="htop" class="header">
+<div class="wrapper">
+
+<!-- Navigation -->
+<div class="navi">
+<ul>
+<li class="active"><a href="../mag1/index.html"  target="blank">GNU #1</a></li>
+<li><a id ="feature" href="../mag2/index1.html"  target="blank">GNU #2</a></li>
+
+<li><a  href="http://localhost:8080/" id=""  target="blank">SATAN'S CHAT</a></li>
+</ul>
+</div>
+
+<!-- Logo -->
+<div> <br/><img src="img/logo.png" /></div>
+
+
+
+
+</div>
+</div><!-- END Header -->
+
+<!-- Main Content -->
+<div class="main-content">
+<div class="wrapper">
+<h3> <strong>Welcome to GNU </strong>world</h3>
+<p class="subtitles">Ready to get oss overdoses</p>
+
+<div class="video"><a class="video" id="pop-video"><span></span></a>
+<p id="tool-video"><strong>Watch The Video</strong><span> </span></p>
+</div>
+
+</div> 
+</div><!-- END Main Content --> 
+
+
+
+<section>
+
+<div class="container">	
+
+			<header class="clearfix">
+			
+				<h1>Satans publication magazines <span>A fun 3D open source show</span></h1>
+
+				<div class="support-note">
+					<span class="note-ie">Sorry, only modern browsers</span>
+				</div>
+				
+			</header>
+			
+			<section class="main">
+
+				<ul id="st-stack" class="st-stack-raw">
+					<li><div class="st-item"><a href="../mag1/index.html" target="blank"><img src="images/1.jpg"/></a></div><div class="st-title"><h2>Databased Antenna</h2><h3>by Satans web</h3></div></li>
+					<li><div class="st-item"><a href="../mag2/index1.html"  target="blank"><img src="images/2.jpg"/></a></div><div class="st-title"><h2>Linux Snake Pool</h2><h3>by Satans web</h3></div></li>
+					<li><div class="st-item"><a href="../mag1/index.html#latest-work" target="blank"><img src="images/3.jpg"/></a></div><div class="st-title"><h2>Web of Spades</h2><h3>by Satans web </h3></div></li>
+					<li><div class="st-item"><a href="../mag2/index1.html#services" target="blank"><img src="images/4.jpg"/></a></div><div class="st-title"><h2>Lisence War</h2><h3>by Satans web</h3></div></li>
+					<li><div class="st-item"><a href="../mag1/index.html#assets/book/book.html" target="blank"><img src="images/5.jpg"/></a></div><div class="st-title"><h2>Javascript A lion ?</h2><h3>by Satans web</h3></div></li>
+					<li><div class="st-item"><a href=""><img src="images/6.jpg"/></a></div><div class="st-title"><h2>Flying Oss Software</h2><h3>by Satans web</h3></div></li>
+					<li><div class="st-item"><a href=""><img src="images/7.jpg"/></a></div><div class="st-title"><h2>The Fantom &amp; Derby Frameworks</h2><h3>by Satans web</h3></div></li>
+					<li><div class="st-item"><a href=""><img src="images/8.jpg"/></a></div><div class="st-title"><h2>Mint : King of the world</h2><h3>by satan's web</h3></div></li>
+					<li><div class="st-item"><a href=""><img src="images/9.jpg"/></a></div><div class="st-title"><h2>Couchdb database</h2><h3>by satan's web</h3></div></li>
+					<li><div class="st-item"><a href=""><img src="images/10.jpg"/></a></div><div class="st-title"><h2>Crusader &amp; Viking of web</h2><h3>by satan's web</h3></div></li>
+					<li><div class="st-item"><a href=""><img src="images/11.jpg"/></a></div><div class="st-title"><h2>Long stack traces</h2><h3>by satan's web</h3></div></li>
+					<li><div class="st-item"><a href=""><img src="images/12.jpg"/></a></div><div class="st-title"><h2>Captain Banana : Erlang</h2><h3>by satan's web</h3></div></li>
+					<li><div class="st-item"><a href=""><img src="images/13.jpg"/></a></div><div class="st-title"><h2>Deadly Security</h2><h3>by satan's web</h3></div></li>
+					<li><div class="st-item"><a href=""><img src="images/14.jpg"/></a></div><div class="st-title"><h2>Browser Brothers</h2><h3>by satan's web</h3></div></li>
+				</ul>
+				<p>The only magazine of Open source and free world for aliens .</p>
+			</section>
+
+		</div><!-- /container -->
+	</section>
+	<!--	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
+		<script type="text/javascript" src="js/jquery.stackslider.js"></script>
+		<script type="text/javascript">
+			
+			$( function() {
+				
+				$( '#st-stack' ).stackslider();
+
+			});
+
+		</script>
+
+
+
+<!-- END CONTAINER -->
+
+
+
+
+<section>
+
+<div class="container">
+		
+			
+			
+			<header>
+			
+				<h1><span>Satan's Cassette Player</span> with HTML5 Audio</h1>
+			
+				
+				<div class="support-note"><!-- let's check browser support with modernizr -->
+					<span class="no-cssanimations">CSS animations are not supported in your browser</span>
+					<span class="no-csstransforms">CSS transforms are not supported in your browser</span>
+					<span class="no-csstransforms3d">CSS 3D transforms are not supported in your browser</span>
+					<span class="no-csstransitions">CSS transitions are not supported in your browser</span>
+					<span class="note-ie">Sorry, only modern browsers.</span>
+				</div>
+				
+			</header>
+
+			<div id="vc-container" class="vc-container">
+				<div class="vc-tape-wrapper">
+					<div class="vc-tape">
+						<div class="vc-tape-back">
+							<div class="vc-tape-wheel vc-tape-wheel-left"><div></div></div>
+							<div class="vc-tape-wheel vc-tape-wheel-right"><div></div></div>
+						</div>
+						<div class="vc-tape-front vc-tape-side-a">
+							<span>A</span>
+						</div>
+						<div class="vc-tape-front vc-tape-side-b">
+							<span>B</span>
+						</div>
+					</div>
+				</div>
+				<div class="vc-loader"></div>
+			</div><!-- //vc-container -->
+		
+
+
+		</div><!-- //container -->
+
+</section>
+		<!--
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<!-- KnobKnob by Martin Angelov : https://github.com/martinaglv/KnobKnob -->
+		<script src="js/transform.js"></script>
+		<script src="js/knobKnob.jquery.js"></script>
+
+		<script type="text/javascript" src="js/jquery.cassette.js"></script>
+		<script type="text/javascript">	
+			$(function() {
+				
+				$( '#vc-container' ).cassette();
+						
+				});
+		</script>
+    
+
+
+
+<!-- Video PopUp -->
+<div class="wrap" id="overlay_form">
+<iframe src="http://player.vimeo.com/video/58165438"  width="770" height="470"></iframe>
+<a  id="close2" ></a>
+ 
+</div>
+
+
+<!--
+
+
+ <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37249134-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>-->
+</body>
+</html>

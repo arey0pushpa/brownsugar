@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+--------------------------------------------- Navigation Starts --*/
+/*------------------------------------------------------------------------- Navigation Ends --*/
+/*------------------------------------------------------------------------- Pages Header/Banner/Contents Starts --*/
+/*------------------------------------------------------------------------- Team Page Ends --*/
+/*------------------------------------------------------------------------- Services Page Starts --*/
+------------------------------------------------------------------------- Portfolio Starts --*/
+#portfolio                              { padding-bottom: 60px }
+#options                                { margin-bottom: 30px; font-family: 'Oswald', sans-serif; font-size: 18px; line-height: normal; }
+#options ul                             { margin: 0px; padding: 0px; }
+#options li                             { display: inline-block; color: #FFF; text-decoration: none; }
+#options li a                           { display: inline-block; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; margin-right: 1px; background: #7d8085; color: #FFF; text-decoration: none; }
+#options li a:hover, #options li a.selected
+                                        { background: #289fcf; color: #FFF; text-decoration: none; transition: background 0.5s; -moz-transition: background 0.5s; -webkit-transition: background 0.5s; -o-transition: background 0.5s; }
+#portfolio .element                     { padding-bottom: 10px }
+/*#portfolio .element img                 { background-image: url(../images/portfolio/shadow.png); background-position: left bottom; padding-bottom: 24px; background-repeat: no-repeat; }_NO__DOTCOMMA__AFTER__*/
+#portfolio .element:hover img           { opacity: 0.8; -moz-opacity: 0.8; -webkit-opacity: 0.8; -khtml-opacity: 0.8; }
+#portfolio .title                       { color: #289fcf; margin-top: -10px; font-family: 'Oswald', sans-serif; font-size: 18px; line-height: normal; float: left; }
+#portfolio .description                 { float: left; clear: both; }
+#portfolio .element div img             { background-image: none!important; opacity: 1.0!important; -moz-opacity: 1.0!important; -webkit-opacity: 1.0!important; -khtml-opacity: 1.0!important; }
+#portfolio .element                     { margin-bottom: 20px }
+/*------------------------------------------------------------------------- Portfolio Ends --*/
+/*------------------------------------------------------------------------- Contact Starts --*/
+/*------------------------------------------------------------------------- Image Shadow Starts */
+.image-shadow                           { background-image: url(../images/portfolio/shadow.png); background-position: left bottom; padding-bottom: 24px; background-repeat: no-repeat; }
+/*------------------------------------------------------------------------- Image Shadow Ends */
+/*------------------------------------------------------------------------- Padding Starts */
+.large-padding                          { padding: 50px }
+.medium-padding                         { padding: 30px }
+.small-padding                          { padding: 20px }
+.large-t-b-padding                      { padding-top: 30px; padding-bottom: 30px; }
+.medium-t-b-padding                     { padding-top: 20px; padding-bottom: 20px; }
+.small-t-b-padding                      { padding-top: 10px; padding-bottom: 10px; }
+.large-top-padding                      { padding-top: 30px }
+.medium-top-padding                     { padding-top: 20px }
+.small-top-padding                      { padding-top: 10px }
+.large-bottom-padding                   { padding-bottom: 30px }
+.medium-bottom-padding                  { padding-bottom: 20px }
+.small-bottom-padding                   { padding-bottom: 10px }
+.large-left-padding                     { padding-left: 50px }
+.medium-left-padding                    { padding-left: 20px }
+.small-left-padding                     { padding-left: 10px }
+.large-right-padding                    { padding-right: 50px }
+.medium-right-padding                   { padding-right: 20px }
+.small-right-padding                    { padding-right: 10px }
+/*------------------------------------------------------------------------- Padding Ends */
+
